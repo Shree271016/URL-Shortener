@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>URL Shortener</h1>
+      <div class="content">
+        <div class="description">
+          <h2>Description:</h2>
+          <p>
+            This is a simple URL shortener tool. Enter a long URL in the input
+            box below and click "Shorten" to get a shortened URL along with a QR
+            code.
+          </p>
+        </div>
+        <div class="input-container">
+          <input type="text" id="longUrlInput" placeholder="Enter Long URL" />
+          <button onclick="shortenUrl()">Shorten</button>
+        </div>
+      </div>
+      <div class="results">
+        <div id="shortUrl"></div>
+        <div id="qrCode"></div>
+      </div>
+    </div>
+    <div class="thank">
+      <h3>
+        Thank you for using URL Shortner. Shortner another Url " Enter another
+        Url"
+      </h3>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
